@@ -1,0 +1,4 @@
+Running: xsim.dir/sigma_delta_behav/xsimk.exe -simmode gui -wdb sigma_delta_behav.wdb -simrunnum 0 -socket 53651
+Design successfully loaded
+Design Loading Memory Usage: 19460 KB (Peak: 19460 KB)
+Design Loading CPU Usage: 93 ms

@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2014.4.1 (64-bit)
+# SW Build 1149489 on Thu Feb 19 16:23:09 MST 2015
+# IP Build 1147552 on Wed Feb 18 14:25:16 MST 2015
+# Start of session at: Mon Apr 10 15:37:10 2017
+# Process ID: 4020
+# Log file: C:/Users/13400002/sigma_delta/vivado.log
+# Journal file: C:/Users/13400002/sigma_delta\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/13400002/sigma_delta/sigma_delta.xpr
+update_compile_order -fileset sim_1
+launch_simulation
+source sigma_delta.tcl
+close_sim
+launch_simulation
+source sigma_delta.tcl
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source sigma_delta_tb.tcl
+close_sim
+launch_simulation
+source sigma_delta_tb.tcl
+close_sim
+launch_simulation
+source sigma_delta_tb.tcl
+close_sim
+launch_simulation
+source sigma_delta_tb.tcl
+close_sim
+launch_simulation
+source sigma_delta_tb.tcl
+run all
+run all
+run all
+run 2560 ns
+run 2560 ns
+set_property -name {xsim.simulate.runtime} -value {2560ns} -objects [current_fileset -simset]
+close_sim
+launch_simulation
+source sigma_delta_tb.tcl
