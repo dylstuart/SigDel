@@ -28,10 +28,12 @@ module sigma_delta_tb();
     wire data_out;
     reg [15:0] data [255:0];
     integer i;
+    integer index;
     
     initial begin
         i = 0;
-        $readmemh("C:/Users/13400002/sigma_delta/data.txt", data);
+        index = 0;
+        $readmemh("C:/Users/13400002/Documents/SigDel/data.txt", data);
         clock <= 1'b1;
         reset <= 1'b1;
         data_in <= 16'h0000;
@@ -44,9 +46,12 @@ module sigma_delta_tb();
         clock <= ~clock;
     
     always @(posedge clock) begin
-        data_in <= data[i];
+        if(i%64 == 0) begin
+            data_in <= data[index];
+            index = index + 1; 
+        end
         i = i + 1;
-        if(i == 256)
+        if(i == 16384)
             $finish;
     end
     

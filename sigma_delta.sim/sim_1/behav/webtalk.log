@@ -2,11 +2,11 @@
 # Webtalk v2014.4.1 (64-bit)
 # SW Build 1149489 on Thu Feb 19 16:23:09 MST 2015
 # IP Build 1147552 on Wed Feb 18 14:25:16 MST 2015
-# Start of session at: Mon Apr 10 15:56:48 2017
-# Process ID: 6056
-# Log file: C:/Users/13400002/sigma_delta/sigma_delta.sim/sim_1/behav/webtalk.log
-# Journal file: C:/Users/13400002/sigma_delta/sigma_delta.sim/sim_1/behav\webtalk.jou
+# Start of session at: Mon Apr 24 15:12:05 2017
+# Process ID: 1224
+# Log file: C:/Users/13400002/Documents/SigDel/sigma_delta.sim/sim_1/behav/webtalk.log
+# Journal file: C:/Users/13400002/Documents/SigDel/sigma_delta.sim/sim_1/behav\webtalk.jou
 #-----------------------------------------------------------
-source C:/Users/13400002/sigma_delta/sigma_delta.sim/sim_1/behav/xsim.dir/sigma_delta_tb_behav/webtalk/xsim_webtalk.tcl -notrace
-INFO: [Common 17-186] 'C:/Users/13400002/sigma_delta/sigma_delta.sim/sim_1/behav/xsim.dir/sigma_delta_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Apr 10 15:56:49 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx_64bit/Vivado/2014.4/doc/webtalk_introduction.html.
-INFO: [Common 17-206] Exiting Webtalk at Mon Apr 10 15:56:49 2017...
+source C:/Users/13400002/Documents/SigDel/sigma_delta.sim/sim_1/behav/xsim.dir/sigma_delta_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/13400002/Documents/SigDel/sigma_delta.sim/sim_1/behav/xsim.dir/sigma_delta_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Apr 24 15:12:07 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx_64bit/Vivado/2014.4/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Mon Apr 24 15:12:07 2017...

@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="2" Path="C:/Users/13400002/sigma_delta/sigma_delta.xpr">
+<Project Version="7" Minor="2" Path="C:/Users/13400002/Documents/SigDel/sigma_delta.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="81bff3d55dbd4933a7fa64b86f281bfb"/>
@@ -16,6 +16,13 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
       <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/new/DDC_1.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sources_1/new/sigma_delta.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -50,7 +57,7 @@
         <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
         <Option Name="SrcSet" Val="sources_1"/>
-        <Option Name="xsim.simulate.runtime" Val="2560ns"/>
+        <Option Name="xsim.simulate.runtime" Val="163840ns"/>
       </Config>
     </FileSet>
   </FileSets>

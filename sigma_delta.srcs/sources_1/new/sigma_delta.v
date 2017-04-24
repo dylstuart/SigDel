@@ -26,6 +26,9 @@ module sigma_delta(
     );
     
     reg [15:0] delayed_input;
+    wire [15:0] extended_output;
+    
+    DDC_1 SignExtend_DDC(.IN(OUT), .OUT(extended_output));
     
     always @(posedge CLK or negedge RST) begin
     
@@ -33,7 +36,7 @@ module sigma_delta(
             delayed_input <= 16'h0000; //Clear the internal register
             OUT <= 1'b0; //Clear the output
         end else begin
-            delayed_input <= DATA - {OUT, 15'b000000000000000} + delayed_input;
+            delayed_input <= DATA - extended_output + delayed_input;
             OUT <= delayed_input[15];
         end
     
